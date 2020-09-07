@@ -25,7 +25,7 @@
         </div>
 
         <!-- Middle logo -->
-        <div class = 'logo'><h1>greenER</h1></div>
+        <a href="index.html"> <div class='logo'> <h1>greenER</h1> </div> </a>
 
 
         <!-- Right nav -->
@@ -42,8 +42,8 @@
 
 
                 <div class="buttons">
-                    <button id = 'login'>LOG IN</button>
-                    <button id = 'signin'>SIGN IN</button>
+                    <button id = 'login'><a href="#"> LOG IN</a></button>
+                    <button id = 'signin'><a href="#"> SIGN IN</a></button>
                 </div>
 
         </div>
@@ -55,15 +55,15 @@
 
         <h2>GET TO KNOW YOUR PLANTS</h2>
         <p>BY <strong>greenER</strong> FROM LITHUANIA</p>
-        <button id = 'visit'>VISIT THE PLANT</button>
-        <button id = 'check'>CHECK YOUR PLANT</button>
+        <a href="https://www.google.com/"><button id = 'visit'>VISIT THE PLANT</button></a>
+        <a href="https://www.google.com/"><button id = 'check'>CHECK YOUR PLANT</button></a>
 
         <div class = 'socials'>
             <ul>
-                <li><i class="fas fa-share-alt"></i></li>
-                <li><i class="fab fa-linkedin-in"></i></li>
-                <li><i class="fab fa-facebook-f"></i></li>
-                <li><i class="fab fa-instagram"></i></li>
+                <li><a href="https://www.google.com/"><i class="fas fa-share-alt"></i></a></li>
+                <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
 
@@ -74,60 +74,80 @@
     <section class="previousPlants">
         <p class = 'headerplant'>Previous <strong>plants of the day</strong></p>
         <div class="cards">
-        <div class='card'>
+        <div class='card , make-it-slow'>
 
             <div class = 'dayimg'>
                 <img src="./Pictures/tinytree.png" alt="tiny tree">
             </div>
             <div class="box">
                 <div class = 'written'>
-                    <h3 class = 'typeofplant'>Golden gat ficus</h3>
+                    <h3 class = 'typeofplant'><a href="#">Golden gat ficus</a></h3>
                     <p class = 'date'>19 September 2020</p>
                 </div>
 
                 <div class = 'readmore'>
-                    <button>READ MORE</button>
+                    <button><a href="https://www.google.com/">READ MORE</a></button>
                 </div>
             </div>
 
         </div>
 
-        <div class='card'>
+        <div class='card , make-it-slow'>
 
             <div class = 'dayimg'>
                 <img src="./Pictures/lineplant.png" alt="line plant">
             </div>
             <div class="box">
                 <div class = 'written'>
-                    <h3 class = 'typeofplant'>Money tree plant</h3>
+                    <h3 class = 'typeofplant'><a href="#">Money tree plant</a></h3>
                     <p class = 'date'>18 September 2020</p>
                 </div>
 
                 <div class = 'readmore'>
-                    <button> READ MORE</button>
+                    <button><a href="https://www.google.com/">READ MORE</a></button>
                 </div>
             </div>
 
         </div>
 
-        <div class='card'>
+        <div class='card , make-it-slow'>
 
             <div class = 'dayimg'>
                 <img src="./Pictures/hangingplant.png" alt="hanging plant">
             </div>
             <div class="box">
                 <div class = 'written'>
-                    <h3 class = 'typeofplant'>ZZ plant</h3>
+                    <h3 class = 'typeofplant'><a href="#">ZZ plant</a></h3>
                     <p class = 'date'>17 September 2020</p>
                 </div>
 
                 <div class = 'readmore'>
-                    <button>READ MORE</button>
+                    <button><a href="https://www.google.com/">READ MORE</a></button>
                 </div>
             </div>
         </div>
     </div>
     </section>
+    <h2 id = 'watering'>Are you watering your plants often enough?</h2>
+    <section class="wateringplants">
+        <div class="what">
+            <label for="whatp">What plant do you have?</label>
+            <select id="whatplant" name="whatp">
+                <option value="succulent">Succulent</option>
+                <option value="fern">Fern</option>
+                <option value="pickledpear">Pickled pear</option>
+            </select> 
+        </div>
+        <div class="howoften">
+            <label for="howoft">How often do you water your plants</label>
+            <select id="often" name="howoft">
+                <option value="daily">Daily</option>
+                <option value="weekly">Weekly</option>
+                <option value="lessthan">less then Weekly</option>
+            </select> 
+        </div>
+    </section>
+    <div id='answer'></div>
 
 
 
