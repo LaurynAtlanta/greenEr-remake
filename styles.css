@@ -27,6 +27,10 @@ header button{
     color: white;
     height:100%;
     font-weight: 400;
+    justify-content: flex-end ;
+}
+.buttons{
+    display:flex;
 }
 
 #login{
@@ -146,8 +150,9 @@ h1{
     display: flex;
 }
 .socials li{
-    padding: 20px;
+    padding: 15px;
 }
+
 
 .jumbotron button{
     border-radius: 30px;
@@ -199,8 +204,10 @@ h1{
     margin-bottom: 20px;
 }
 
-.previousPlants p{
+.written p{
     margin-bottom: 10px;
+    padding-top: 10px;
+    font-size: 12px;
 }
 
 .dayimg img{
