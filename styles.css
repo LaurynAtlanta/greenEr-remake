@@ -10,6 +10,7 @@
 
 body{
     font-family: 'Merriweather Sans', sans-serif;
+    background-color: rgb(249, 249, 249);
 }
 
 
@@ -182,13 +183,37 @@ h1{
 
 
 
+
+
 /* PREVIOUS PLANTS */
-.previousPlants{
+.cards{
     display: flex;
     justify-content: space-between;
 }
 
+.previousPlants{
+    margin: 40px 120px;
+}
+
+.previousPlants p{
+    margin-bottom: 30px;
+}
+
 .dayimg img{
     height: auto;
-    width: 200px;
+    width: 280px;
 }
+
+.box{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.card{
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04), 0 6px 20px 0 rgba(0, 0, 0, 0.04);
+}
+
